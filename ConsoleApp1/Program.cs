@@ -7,7 +7,7 @@ public class Program
     {
         Console.InputEncoding = Encoding.Unicode;
         Console.OutputEncoding = Encoding.Unicode;
-        
+        Console.WriteLine("12312312");
     }
 }
     
