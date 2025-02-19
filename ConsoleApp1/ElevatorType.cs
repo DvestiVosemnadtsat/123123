@@ -6,9 +6,9 @@ public class ElevatorType : Elevator
     
     public string InteriorStyle;
 
-    public float MaxSpeed;
+    public double MaxSpeed;
 
-    public ElevatorType(int YearOfCreation, string interiorStyle, float maxSpeed, int currentFloor, 
+    public ElevatorType(int YearOfCreation, string interiorStyle, double maxSpeed, int currentFloor, 
         int currentElevatorPosition, bool elevatorIsOpen) : base(currentFloor, currentElevatorPosition, elevatorIsOpen)
     {
         this.YearOfCreation = YearOfCreation;
